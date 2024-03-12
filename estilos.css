@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background: url(img/background.avif);
-    background-size: 100%;
+    background-size: 101%;
     background-repeat: no-repeat;
     background-color: rgb(17, 1, 77);
 }
@@ -13,7 +13,7 @@ html{
 header{
     display: flex;
     position: absolute;
-    width: 100%;
+    width: 110%;
     top: 2px;
     left: 0;  
     max-width: 1350px;
@@ -28,10 +28,10 @@ header{
     text-align: center;
     align-items: center;
     color: white;
-    width: 12px;
+    width: 14px;
 }
 .logo img{
-    height: 80px;
+    height: 100px;
 }
 nav ul{
     display: flex;
@@ -52,7 +52,7 @@ nav ul li a:hover{
     display: block;
     padding-top: 16%;
     padding-left: 8%;
-    color: black;
+    color: white;
     margin-bottom: 20%;
 }
 .inicio h1{
@@ -80,7 +80,7 @@ nav ul li a:hover{
     display: block;
     position: relative;
     height: 690px;
-    width: 100%;
+    width: 101%;
 }
 .gradient{
     background: linear-gradient(rgb(7, 177, 177), rgb(17, 1, 77));
@@ -135,7 +135,7 @@ nav ul li a:hover{
     position: relative;
     background-image:linear-gradient(rgb(17, 1, 77) 90%, black);
     height: 650px;
-    width: 100%;
+    width: 101%;
     color: white;
 }
 .services h1{
@@ -154,7 +154,7 @@ nav ul li a:hover{
 .services button{
     background-color: rgb(73, 12, 131);
     color: white;
-    font-size: 14px;
+    font-size: 20px;
     border-radius: 4px;
     margin-left: 10%;   
 }
@@ -194,12 +194,12 @@ nav ul li a:hover{
 .contact button{
     background-color: rgb(73, 12, 131);
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 4px;
     margin-left: 50%;
 }
 .contact img{
-    height: 150px;
+    height: 180px;
     margin-left: 40%;
     margin-top: 6px;
 }
@@ -209,4 +209,58 @@ nav ul li a:hover{
     border-radius: 2%;
     margin-left: 20%;
     margin-right: 20%;
+}
+@media screen and (max-width:700px){
+    body{
+        background-size: 115%
+    }
+    .logo img{
+        height: 40px;
+    }
+    .logo{
+        font-size: 10px;
+    }
+    .inicio h1{
+        font-size: 40px;
+    }
+    .inicio h3{
+        font-size: 25px;
+        padding: 5px;
+    }
+    .whychooseus{
+        width: 112%;
+    }
+    .whychooseus h1{
+        font-size: 35px;
+    }
+    .whychooseus .izq{
+        font-size: 12px;
+    }
+    .whychooseus .centro{
+        font-size: 12px;
+        margin-left: 35%;
+    }
+    .whychooseus .der{
+        font-size: 14px;
+        margin-left: 66%;
+    }
+    .services{
+        width: 112%;
+    }
+    .services h1{
+        font-size: 35px;
+    }
+    .contact{
+       width: 112%;
+    }
+    .contact h1{
+        font-size: 35px;
+    }
+    .contact form{
+        width: 40%;
+        margin-left: 70px;
+    }
+    .contact img{
+        margin-left: 22%;
+    }
 }
